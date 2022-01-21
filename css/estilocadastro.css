@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dongle&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.banner-logo {
+    height: 72px;
+}
+
+.banner-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.banner-menu-item {
+    font-family: 'Dongle', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.newsletter {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.newsletterFormulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newsletterFormulario-descrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.newsletterFormulario-descritoTitulo {
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.newsletterFormulario-descritoLabel {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ECD6C4;
+}
+
+.newsletterFormulario-descritoCampo {
+    padding: 0.5em;
+    width: 450px;
+    border: 2px solid #FFF2E7;
+    border-radius: 20px;
+    display: block;
+    
+}
+
+.newsletterFormulario-botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #e58c8a;
+}
+
+.newsletterFormulario-imagem {
+    padding: 14px;
+    height: 430px;
+}
+
+.rodape {
+    border-top: 00.4px solid #FFF2E7;
+    padding: 25px;
+}
+
+.rodapeImagem {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
