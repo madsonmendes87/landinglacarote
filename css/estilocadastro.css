@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 10px 5%;
 }
 
 .banner-logo {
@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .newsletterFormulario-descrito {
@@ -57,7 +57,7 @@ body {
 .newsletterFormulario-descritoTitulo {
     font-family: 'Courgette', cursive;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 54px;
     color: #FFF2E7;
 }
 
