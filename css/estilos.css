@@ -90,7 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 32px;
     margin-top: 48px;
 }
 
@@ -121,21 +121,15 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width:1200px) {
-    .banner {
-        padding-left: 20px;
-    }
-}
-
 @media (max-width:750px) {
     .banner {
         display: flex;
         flex-direction: row;
-        padding: 0;
+        padding: 10px 0%;;
     }
 
     .banner-logo {
-        height: auto;
+        height: flex;
     }
 
     .banner-menu {
@@ -144,24 +138,60 @@ body {
 
     .conteudoPrincipal {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .conteudoSecundario {
-        display: flex;
-        flex-direction: column;
-        margin-top: 48px;
-        padding-bottom: 0%;
-    }
-
-    .rodape {
-        border-top: 00.4px solid #FFF2E7;
-        padding: 25px;
-        margin-top: 0%;
+    
     }
     
+    .conteudoPrincipal-escritoTitulo {
+        font-family: 'Courgette', cursive;
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 1% 0;
+        color: #FFF2E7;
+    }
+
+    .conteudoPrincipal-imagem {
+        order: -1;
+    }
+
+    .conteudoPrincipal-escritoSubtitulo {
+        font-family: 'Dongle', sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        padding-left: 7%;
+        color: #ECD6C4;
+    }
+
+    .conteudoPrincipal-escritoBotao {
+        background-color: #ECD6C4;
+        width: 380px;
+        height: 60px;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin-left: 10%;
+        color: #e58c8a;
+    }
+
+    .conteudoSecundario-titulo {
+        padding-top: 48px;
+        font-family: 'Courgette', cursive;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #FFF2E7;
+    }
+    
+    .conteudoSecundario-paragrafo {
+        font-family: 'Dongle', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: #FFF2E7;
+    
+    }
 
 }
 
