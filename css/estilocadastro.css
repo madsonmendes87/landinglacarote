@@ -104,3 +104,106 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width:768px) {
+    .banner {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0%;;
+    }
+
+    .banner-logo {
+        height: flex;
+    }
+
+    .banner-menu {
+        display: flex;
+    }
+
+    .newsletterFormulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .newsletterFormulario-descritoTitulo {
+        font-family: 'Courgette', cursive;
+        font-weight: 400;
+        font-size: 3rem;
+        padding-left: 30%;
+        padding-top: 5%;
+        color: #FFF2E7;
+    }
+
+    .newsletterFormulario-imagem {
+        order: -1;
+    }
+
+    .newsletterFormulario-botao {
+        background-color: #ECD6C4;
+        width: 380px;
+        height: 60px;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin-left: 8%;
+        color: #e58c8a;
+    }
+
+}
+
+@media (max-width:480px) {
+    .banner {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0%;
+    }
+
+    .banner-logo {
+        height: flex;
+    }
+
+    .banner-menu {
+        display: flex;
+    }
+
+    .newsletterFormulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .newsletterFormulario-descritoTitulo {
+        font-family: 'Courgette', cursive;
+        font-weight: 400;
+        font-size: 3rem;
+        padding-left: 30%;
+        padding-top: 5%;
+        color: #FFF2E7;
+    }
+
+    .newsletterFormulario-imagem {
+        order: -1;
+    }
+
+    .newsletterFormulario-botao {
+        background-color: #ECD6C4;
+        width: 380px;
+        height: 60px;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin-left: 8%;
+        color: #e58c8a;
+    }
+
+}
+
